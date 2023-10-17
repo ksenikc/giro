@@ -1,0 +1,552 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto
+}
+
+header {
+    background-color: #EBFFD8;
+    height: 70px;
+}
+
+.main-menu {
+    float: right;
+    padding-top: 22px;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    float: left;
+}
+
+.logo p {
+    font-size: 28pt;
+    font-weight: 800;
+}
+
+.banner {
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 792px;
+    text-align: center;
+
+}
+
+.banner>.wrapper>p:nth-child(1) {
+    color: #fff;
+    font-size: 5em;
+    margin-bottom: 11px;
+    padding-top: 317px;
+
+}
+
+.banner>.wrapper>p:nth-child(2) {
+    color: #fff;
+    font-size: 1.6em;
+}
+
+.banner>.wrapper>input {
+    width: 126px;
+    height: 44px;
+    background-color: #fffbfb;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-bottom: #fffbfb;
+}
+
+h2 {
+    font-size: 30pt;
+    margin-top: 83px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.onas p {
+    font-size: 24pt;
+}
+
+
+#li {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    font-size: 20pt;
+    width: 90px;
+    height: 50px;
+}
+
+#li {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+#li {
+    border-radius: 70px;
+}
+
+#li a {
+    color: rgb(255, 255, 255);
+}
+
+
+.katalog ul {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+}
+
+.L span {
+    background-color: orange;
+    border: 3px solid orange; 
+    font-size: 28px;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    float: left;
+
+}
+
+.katalog nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.katalog nav ul {
+    float: left;
+
+}
+
+.katalog nav li {
+    display: inline-block;
+    padding-right: 16px;
+    padding-left: 30px;
+}
+
+.siga {
+    margin-top: 86px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.k {
+
+    font-size: 36px;
+}
+
+.name_sig {
+    margin-top: 32px;
+    font-size: 16pt;
+}
+
+.prise b{
+    font-size: 20pt;
+}
+
+.sig {
+    background-color: white;
+    width: 279px;
+    height: 441px;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px 3px rgb(169, 167, 167);
+
+}
+
+.photo_sig {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.photo_sig img {
+    height: 242px;
+    width: 210px;
+
+}
+
+.polez img {
+    width: 280px;
+    height: 263px;
+    margin-right: 20px;
+
+
+
+}
+
+.polez {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    padding-top: 50px;
+    display: flex;
+    height: 299px;
+
+}
+
+footer div {
+    float: right;
+    margin-bottom: 70px;
+    justify-content: right;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+}
+
+footer li {
+    text-decoration: none;
+    display: flex;
+}
+
+footer li {
+    color: black;
+}
+
+@media (max-width:1024px) {
+    .wrapper {
+        width: 884px;
+    }
+    .banner {
+        height: 523px;
+    }
+    header {
+        height: 77px;
+    }
+
+    .banner>.wrapper>p:nth-child(1) {
+        font-size: 3em;
+        margin-bottom: 20px;
+        padding-top: 148px;
+    
+    }
+    
+    .banner>.wrapper>p:nth-child(2) {
+        font-size: 1.2em;
+    }
+    
+    .banner>.wrapper>input {
+        width: 115px;
+        height: 39px;
+        margin-top: 50px;
+    }
+    .logo {
+        margin-top: 10px;
+    }
+
+    .main-menu ul li {
+        margin-left: 13px;
+    }
+
+    .main-menu ul li a {
+        font-size: 16px;
+    }
+
+    /* Каталог  */
+    .sig {
+        width: 210px;
+        height: 417px;
+
+    }
+
+    .L span {
+        font-size: 24px; 
+        
+    }
+
+    /* Полезная информация */
+    .polez img {
+        width: 210px;
+        height: 215px;
+    }
+
+    .polez {
+        display: flex;
+        justify-content: space-between;
+    }
+    .name_sig {
+        font-size: 12pt;
+    }
+    
+    .prise b{
+        font-size: 15pt;
+    }
+    footer div {
+        margin-right: 80px;
+    }
+}
+
+@media (max-width:768px) {
+    .wrapper {
+        width: 710px;
+    }
+
+    header {
+        height: 77px;
+    }
+    .banner {
+        height: 382px;
+    }
+
+    .banner>.wrapper>p:nth-child(1) {
+        font-size: 3em;
+        margin-bottom: 20px;
+        padding-top: 95px;
+    
+    }
+    
+    .banner>.wrapper>p:nth-child(2) {
+        font-size: 1em;
+    }
+    
+    .banner>.wrapper>input {
+        width: 112px;
+        height: 39px;
+        margin-top: 45px;
+    }
+    .logo {
+        margin-top: 10px;
+    }
+
+    .main-menu ul li {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .main-menu ul li a {
+        font-size: 13px;
+    }
+
+    /* Каталог  */
+    .sig {
+        width: 230px;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .photo_sig{
+        height: 243px ;
+        width: 230px;
+    }
+    .siga{
+        flex-wrap: wrap;
+        width: 710px;
+        
+    }
+
+    .L span {
+        font-size: 24px; 
+        
+    }
+    
+    h2{
+        margin-bottom: 43px;
+        margin-top: 43px;
+    }
+
+    .onas p{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    /* Полезная информация */
+    .polez img {
+        width: 230px;
+        height: 230px;
+        margin: 0;
+    }
+
+    .polez {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .name_sig {
+        font-size: 12pt;
+    }
+    
+    .prise b{
+        font-size: 15pt;
+    }
+    footer div {
+        margin-right: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        width: 280px;
+    }
+
+    header {
+        height: 30px;
+    }
+
+    .main-menu ul li {
+        margin-left: 1px;
+    }
+
+    .main-menu ul li a {
+        font-size: 0.19em;
+    }
+
+    .logo p{
+        font-size: 7pt;
+        font-weight: 900;
+        padding-top: 1px;
+    }
+    .logo {
+    margin-right: 0;
+    }
+
+    .main-menu {
+     padding-top: 0px; 
+     margin-top: -21px;
+     margin-left: 50px;
+    }
+
+    .banner {
+        height: 180px;
+    }
+
+    .banner>.wrapper>p:nth-child(1) {
+        font-size: 1em;
+        margin-bottom: 10px;
+        padding-top: 40px;
+    }
+
+    .banner>.wrapper>p:nth-child(2) {
+        font-size: 0.5em;
+        font-weight: 100;
+    
+    }
+
+    .banner>.wrapper>input {
+        width: 68px;
+        height: 20px;
+        font-size: 0.5em;
+        margin-top: 25px;
+    }
+
+    /* О НАС */
+    h2 {
+        text-align: center;
+        font-size: 0.8em;
+        margin: 30px 0 20px 0;
+    }
+
+    .onas p {
+        line-height: 1.1em;
+        text-align: justify;
+        font-size: 0.5em;
+    }
+    /*Каталог*/
+
+    .katalog ul li a{
+        font-size: 0.6em;  
+    }
+
+    .katalog ul li{
+        margin-left: 0px;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    #li {
+        padding-left: 17px;
+        padding-top: 3px;
+    }
+    #li {
+        font-size: 0.6em;
+        width: 45px;
+        height: 25px;
+    }
+    /* Продукция */
+    .sig {
+        width: 140px;
+        height: 216px;
+        margin-left: 37px;
+        margin-right: 37px;
+        margin-bottom: 10px;
+
+    }
+    .photo_sig { 
+        height: 120px ;
+        width: 129px;
+        margin-top: 5px;
+    }
+    .photo_sig img{
+        height: 120px ;
+        width: 129px;
+    }
+    .siga{
+        width: 280px;
+        margin-top: 0;
+
+    }
+
+    .L span {
+        font-size: 0.6em; 
+        
+    }
+    .name_sig {
+        font-size: 0.6em;
+        margin-top: 5px;
+    }
+    
+    .prise b{
+        font-size: 0.7em;
+        margin: 0;
+    }
+
+    /* ПОЛЗНАЯ ИНФОРМАЦИЯ */
+    .polez img {
+        width: 140px;
+        height: 140px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 10px;
+    }
+
+    /* ПОДВАЛ */
+    footer {
+        height: 360px;
+        padding-top: 30px;
+        
+    }
+
+    footer p {
+        font-size: 0.7em;
+    }
+
+    footer h4 {
+        font-size: 0.8em;
+    }
+    footer div {
+        margin-right: 20px;
+    }
+    footer li{
+        font-size: 0.6em;
+    }
+}
